@@ -9,6 +9,8 @@ import IconCloudComp from "@/components/IconCloudComp";
 import { MagicCardGradient } from "@/components/Card";
 import { ProjectCard } from "@/components/project-card";
 import { SparklesComp } from "@/components/Sparkles-comp";
+import { Accordion } from "@/components/faq-accordion";
+import MarqueeLogo from "@/components/marquee-logo";
 
 export default function Home() {
   return (
@@ -23,6 +25,10 @@ export default function Home() {
         <IconCloudComp />
       </div>
       <div className="">
+        <SparklesComp text={"Tools and Platform I Use"} />
+        <MarqueeLogo/>
+      </div>
+      <div className="">
         {/* <h1 className="text-white text-center font-bold text-3xl lg:mt-10 xl:mt-10">Projects</h1> */}
         <SparklesComp text={"Projects"}/>
         {/* <div className="mt-16"><MagicCardGradient/></div> */}
@@ -30,6 +36,7 @@ export default function Home() {
       </div>
       <div>
       <SparklesComp text={"FAQs"}/>
+      <Accordion/>
       </div>
       <DockSocial />
     </main>
