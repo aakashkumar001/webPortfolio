@@ -16,7 +16,7 @@ export function ProjectCard() {
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
             >
-              InstaByte
+              InstaByte <span>I</span>
             </CardItem>
             <CardItem
               as="p"
