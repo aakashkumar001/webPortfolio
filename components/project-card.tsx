@@ -4,7 +4,16 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./background-gradient";
 import Link from "next/link";
-import { Globe, Globe2Icon } from "lucide-react";
+import {
+  FileCode,
+  Globe,
+  Globe2Icon,
+  Settings2,
+  SettingsIcon,
+  TextSearchIcon,
+} from "lucide-react";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { BorderBeam } from "./magicui/border-beam";
 
 export function ProjectCard() {
   return (
@@ -16,14 +25,11 @@ export function ProjectCard() {
               translateZ="50"
               className="text-xl flex gap-2 font-bold text-neutral-600 dark:text-white"
             >
-              <div>
-              InstaByte
+              <div>InstaByte</div>
+
+              <div className="whitespace-nowrap rounded-full bg-purple-600 text-center px-2 py-0.5 text-sm text-purple-100">
+                new
               </div>
-              
-             
-                <div className="whitespace-nowrap rounded-full bg-purple-600 text-center px-2 py-0.5 text-sm text-purple-100">
-                  new
-                </div>
             </CardItem>
             <CardItem
               as="p"
@@ -49,9 +55,46 @@ export function ProjectCard() {
                 as={Link}
                 href="https://github.com/aakashkumar001/xApp"
                 target="__blank"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="px-4 flex gap-1 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
-                Github →
+                <span>
+                  <GitHubLogoIcon />
+                </span>{" "}
+                <span>Github →</span>
+              </CardItem>
+              <CardItem
+                translateZ={50}
+                as={Link}
+                href="https://github.com/aakashkumar001/xApp"
+                target="__blank"
+                className="px-2 flex justify-center items-center gap-2 py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <span>
+                  <Image
+                    src="/appwrite.svg"
+                    width={16}
+                    height={16}
+                    alt="appwrite"
+                  />
+                </span>
+                {/* <span><Image src="/react-query.svg" width={16} height={16} alt="appwrite"/></span>  */}
+                <span>
+                  <Image
+                    src="/TypeScript.svg"
+                    width={16}
+                    height={16}
+                    alt="appwrite"
+                  />
+                </span>
+                <span>
+                  <Image
+                    src="/nextjs-icon.svg"
+                    width={20}
+                    height={20}
+                    alt="appwrite"
+                    className="bg-white rounded-full"
+                  />
+                </span>
               </CardItem>
               <CardItem
                 translateZ={20}
@@ -66,6 +109,7 @@ export function ProjectCard() {
                 <span>website</span>
               </CardItem>
             </div>
+            <BorderBeam size={250} duration={12} delay={9} />
           </CardBody>
         </CardContainer>
       </div>
@@ -102,9 +146,46 @@ export function ProjectCard() {
                 as={Link}
                 href="https://github.com/aakashkumar001/Zwitter-clone"
                 target="__blank"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="px-4 py-2 flex gap-1 rounded-xl text-xs font-normal dark:text-white"
               >
-                Github →
+                <span>
+                  <GitHubLogoIcon />
+                </span>{" "}
+                <span>Github →</span>
+              </CardItem>
+              <CardItem
+                translateZ={50}
+                as={Link}
+                href="https://github.com/aakashkumar001/xApp"
+                target="__blank"
+                className="px-2 flex justify-center items-center gap-2 py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                <span>
+                  <Image
+                    src="/MongoDB.svg"
+                    width={16}
+                    height={16}
+                    alt="appwrite"
+                  />
+                </span>
+                <span>
+                  <Image
+                    src="/TypeScript.svg"
+                    width={16}
+                    height={16}
+                    alt="appwrite"
+                  />
+                </span>
+
+                <span>
+                  <Image
+                    src="/nextjs-icon.svg"
+                    width={20}
+                    height={20}
+                    alt="appwrite"
+                    className="bg-white rounded-full"
+                  />
+                </span>
               </CardItem>
               <CardItem
                 translateZ={20}
@@ -115,10 +196,11 @@ export function ProjectCard() {
               >
                 <span>
                   <Globe />
-                </span>{" "}
+                </span>
                 <span>website</span>
               </CardItem>
             </div>
+            <BorderBeam size={250} duration={12} delay={9} />
           </CardBody>
         </CardContainer>
       </div>
@@ -155,9 +237,46 @@ export function ProjectCard() {
                 as={Link}
                 href="https://github.com/aakashkumar001/spotify-clone"
                 target="__blank"
-                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                className="px-4 py-2 flex gap-1 rounded-xl text-xs font-normal dark:text-white"
               >
-                <span className="pr-1">Github</span> →
+                <span>
+                  <GitHubLogoIcon />
+                </span>{" "}
+                <span>Github →</span>
+              </CardItem>
+              <CardItem
+                translateZ={50}
+                as={Link}
+                href="https://github.com/aakashkumar001/xApp"
+                target="__blank"
+                className="px-2 flex justify-center items-center gap-2 py-2 rounded-xl text-xs font-normal dark:text-white"
+              >
+                {/* <span><FileCode size={16}/></span> <span>Tech</span>  */}
+                <span>
+                  <Image
+                    src="/supabase.svg"
+                    width={16}
+                    height={16}
+                    alt="appwrite"
+                  />
+                </span>
+                <span>
+                  <Image
+                    src="/TypeScript.svg"
+                    width={16}
+                    height={16}
+                    alt="appwrite"
+                  />
+                </span>
+                <span>
+                  <Image
+                    src="/nextjs-icon.svg"
+                    width={20}
+                    height={20}
+                    alt="appwrite"
+                    className="bg-white rounded-full"
+                  />
+                </span>
               </CardItem>
               <CardItem
                 translateZ={20}
@@ -172,6 +291,7 @@ export function ProjectCard() {
                 <span>website</span>
               </CardItem>
             </div>
+            <BorderBeam size={250} duration={12} delay={9} />
           </CardBody>
         </CardContainer>
       </div>

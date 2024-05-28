@@ -10,6 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
         gradient: "gradient 8s linear infinite",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
@@ -19,6 +20,11 @@ const config: Config = {
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
       keyframes: {
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%",
+          },
+        },
         gradient: {
           to: {
             backgroundPosition: "var(--bg-size) 0",
