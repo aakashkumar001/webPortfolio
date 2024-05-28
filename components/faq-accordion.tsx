@@ -2,7 +2,7 @@ export function Accordion() {
   return (
     <div className="space-y-4 px-24 gap-6 flex flex-col justify-center items-center">
       <details
-        className="group border-s-4 border-gray-300 bg-black p-6 [&_summary::-webkit-details-marker]:hidden"
+        className="group border-s-4 border-black bg-black p-6 [&_summary::-webkit-details-marker]:hidden"
         open
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
@@ -10,7 +10,7 @@ export function Accordion() {
             Q1. Why you should hire me?
           </h2>
 
-          <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+          <span className="shrink-0 rounded-full bg-gray-400 p-1.5 text-gray-900 sm:p-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
@@ -38,13 +38,13 @@ export function Accordion() {
         </p>
       </details>
 
-      <details className="group border-s-4 border-gray-300 bg-black p-6 [&_summary::-webkit-details-marker]:hidden">
+      <details className="group border-s-4 border-black bg-black p-6 [&_summary::-webkit-details-marker]:hidden">
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-400">
             Q2. Why I choose full stack developer?
           </h2>
 
-          <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+          <span className="shrink-0 rounded-full bg-gray-400 p-1.5 text-gray-900 sm:p-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
@@ -72,15 +72,15 @@ export function Accordion() {
         </p>
       </details>
       <details
-        className="group border-s-4 border-gray-300 bg-black p-6 [&_summary::-webkit-details-marker]:hidden"
+        className="group border-s-4 border-black bg-black p-6 [&_summary::-webkit-details-marker]:hidden"
         open
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-400">
-            Q3. How you differentiate with others?
+            Q3. How you differentiate yourself with others?
           </h2>
 
-          <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+          <span className="shrink-0 rounded-full bg-gray-400 p-1.5 text-gray-900 sm:p-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"

@@ -22,8 +22,6 @@ const RetroGridHome = () => {
         "Anything that can be imagined can be programmed." -Alan Kay
       </span> */}
       <span className="absolute top-28 left-16 lg:top-32 xl:top-32 lg:left-28 xl:left-28 max-w-96"><TextRevealDemo/></span>
-
-      <span><TextRevealCardPreview/></span>
       
       <div className="hidden lg:absolute lg:right10 xl:right-10 lg:block xl:block w-[600px] ml-72 p-10">
         <OrbitingCirclesDemo />

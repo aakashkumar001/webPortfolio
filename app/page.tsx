@@ -11,6 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 import { SparklesComp } from "@/components/Sparkles-comp";
 import { Accordion } from "@/components/faq-accordion";
 import MarqueeLogo from "@/components/marquee-logo";
+import { TextRevealCardPreview } from "@/components/text-reveal-card-text";
 
 export default function Home() {
   return (
@@ -37,6 +38,12 @@ export default function Home() {
       <div>
       <SparklesComp text={"FAQs"}/>
       <Accordion/>
+      </div>
+      <div>
+      <TextRevealCardPreview/>
+      </div>
+      <div className="border-t-[1px] border-gray-600 rounded-full text-gray-300 text-center px-10 py-4">
+        Made By ✨ Aakash Kumar ©️ 2024 All Rights Reserved
       </div>
       <DockSocial />
     </main>

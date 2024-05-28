@@ -67,13 +67,13 @@ export const TextRevealCard = ({
       onTouchMove={touchMoveHandler}
       ref={cardRef}
       className={cn(
-        "w-[40rem] rounded-lg p-8 relative overflow-hidden",
+        "w-[60rem] rounded-lg px-8 relative overflow-hidden",
         className
       )}
     >
       {children}
 
-      <div className="h-20  relative flex items-center overflow-hidden">
+      <div className="h-32 relative flex items-center justify-center overflow-hidden">
         <motion.div
           style={{
             width: "100%",
@@ -111,7 +111,7 @@ export const TextRevealCard = ({
         ></motion.div>
 
         <div className=" overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white,transparent)]">
-          <p className="text-base sm:text-[3rem] py-10 font-bold bg-clip-text text-transparent bg-[#323238]">
+          <p className="text-1xl lg:1xl xl:2xl md:2xl sm:text-[3rem] py-10 font-semibold bg-clip-text text-transparent bg-[#323238]">
             {text}
           </p>
           <MemoizedStars />
@@ -129,7 +129,7 @@ export const TextRevealCardTitle = ({
   className?: string;
 }) => {
   return (
-    <h2 className={twMerge("text-white text-lg mb-2", className)}>
+    <h2 className={twMerge("text-white text-md mb-2", className)}>
       {children}
     </h2>
   );
