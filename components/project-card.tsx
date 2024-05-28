@@ -14,9 +14,16 @@ export function ProjectCard() {
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem
               translateZ="50"
-              className="text-xl font-bold text-neutral-600 dark:text-white"
+              className="text-xl flex gap-2 font-bold text-neutral-600 dark:text-white"
             >
-              InstaByte <span>I</span>
+              <div>
+              InstaByte
+              </div>
+              
+             
+                <div className="whitespace-nowrap rounded-full bg-purple-600 text-center px-2 py-0.5 text-sm text-purple-100">
+                  new
+                </div>
             </CardItem>
             <CardItem
               as="p"
@@ -24,8 +31,8 @@ export function ProjectCard() {
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
               Instabyte is a social media platform similar to instagram where
-              people can share posts, follow and like each other and users also posts and
-              watch reels.
+              people can share posts, follow and like each other and users also
+              posts and watch reels.
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4 ">
               <Image
@@ -38,7 +45,7 @@ export function ProjectCard() {
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
-                translateZ={20}
+                translateZ={50}
                 as={Link}
                 href="https://github.com/aakashkumar001/xApp"
                 target="__blank"
@@ -55,7 +62,7 @@ export function ProjectCard() {
               >
                 <span>
                   <Globe />
-                </span>{" "}
+                </span>
                 <span>website</span>
               </CardItem>
             </div>
@@ -76,7 +83,9 @@ export function ProjectCard() {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              It is clone web application of twitter.It has feature like posting tweets and photos. Users can comment and likes on tweets. It has seamless user experience.
+              It is clone web application of twitter.It has feature like posting
+              tweets and photos. Users can comment and likes on tweets. It has
+              seamless user experience.
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4 ">
               <Image
@@ -127,7 +136,9 @@ export function ProjectCard() {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              This web platform is made with Supabse backend. Its feature is user can upload their favourite song on cloud and listen to them when they want.
+              This web platform is made with Supabse backend. Its feature is
+              user can upload their favourite song on cloud and listen to them
+              when they want.
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4 ">
               <Image
