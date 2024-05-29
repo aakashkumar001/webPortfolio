@@ -42,7 +42,7 @@ export default function Home() {
         <TrendChart/>
       </div> */}
       <div>
-        <SparklesComp text={"FAQs"} />
+        <SparklesComp text={"About Me 🙋‍♂️"} />
         <Accordion />
       </div>
       <div>

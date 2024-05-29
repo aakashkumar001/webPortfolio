@@ -31,10 +31,7 @@ export function Accordion() {
           self-taught professional. I have developed strong skills in both
           front-end (HTML, CSS, JavaScript, React) and back-end technologies
           (Node.js, Express, MongoDB) through dedicated self-study and practical
-          projects. My self-motivation and passion for learning ensure that I
-          stay current with industry trends and technologies. My ability to
-          learn independently and adapt quickly, combined with a collaborative
-          mindset, makes me a valuable addition to your team.
+          projects. 
         </p>
       </details>
 
@@ -66,9 +63,7 @@ export function Accordion() {
           back-end of web applications. I find it rewarding to see a project
           through from conception to deployment, and being a full stack
           developer allows me to contribute to every phase of the development
-          process. Additionally, the continuous learning and problem-solving
-          inherent in this role align perfectly with my passion for technology
-          and innovation.
+          process.
         </p>
       </details>
       <details
