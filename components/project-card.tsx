@@ -59,8 +59,8 @@ export function ProjectCard() {
               >
                 <span>
                   <GitHubLogoIcon />
-                </span>{" "}
-                <span>Github →</span>
+                </span>
+                <span>Github</span>
               </CardItem>
               <CardItem
                 translateZ={50}
@@ -150,8 +150,8 @@ export function ProjectCard() {
               >
                 <span>
                   <GitHubLogoIcon />
-                </span>{" "}
-                <span>Github →</span>
+                </span>
+                <span>Github</span>
               </CardItem>
               <CardItem
                 translateZ={50}
@@ -241,8 +241,8 @@ export function ProjectCard() {
               >
                 <span>
                   <GitHubLogoIcon />
-                </span>{" "}
-                <span>Github →</span>
+                </span>
+                <span>Github</span>
               </CardItem>
               <CardItem
                 translateZ={50}
