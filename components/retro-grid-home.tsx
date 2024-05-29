@@ -12,7 +12,7 @@ const RetroGridHome = () => {
   return (
     <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20 md:shadow-xl">
       <span className="absolute left-6 lg:left-8 xl:left-8 top-8 lg:top-10 xl:top-10 text-center text-5xl lg:text-6xl xl:text-6xl">✋</span>
-      <span className="absolute left-20 top-10 mb-96 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-5xl lg:text-7xl xl:7xl font-bold leading-none tracking-tighter text-transparent">
+      <span className="absolute left-20 lg:left-28 xl:left-28 top-10 mb-96 pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-5xl lg:text-7xl xl:7xl font-bold leading-none tracking-tighter text-transparent">
         Hi, I'm Aakash 
       </span>
       {/* <span className="text-white">
