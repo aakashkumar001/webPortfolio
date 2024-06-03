@@ -16,13 +16,14 @@ import TrendChart from "@/components/trend-chart";
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className="bg-black overflow-x-hidden">
       <div className="w-full h-screen">
         <RetroGridHome />
       </div>
-      <div className="lg:hidden xl:hidden mt-0">
+      <div className="lg:hidden xl:hidden mt-0 flex flex-col
+       items-center justify-center">
         <h1 className="text-white text-center font-bold text-3xl">
-          Tech Stack
+          Tech Stack <span>👩‍💻</span>
         </h1>
         <IconCloudComp />
       </div>
